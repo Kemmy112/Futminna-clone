@@ -392,5 +392,32 @@ line-height: 30px;
 }
 
 .section5{
-    background-color: #cce;
+    background-color: #ededed;
+    z-index: 1;
 }
+
+.section5 .become{
+    display: flex;
+    width: 96%;
+    outline: 2px solid red;
+    margin-left: 2%;
+    height: 500px;
+    margin-top: 6%;
+    z-index: 2;
+}
+
+.section5 .become .stud-vid{
+    width: 400px;
+}
+
+.become .become-right{
+    width: 40%;
+}
+
+.become .become-right ul{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
