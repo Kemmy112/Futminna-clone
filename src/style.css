@@ -1,0 +1,396 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Poppins, sans-serif;
+    width: 100%;
+}
+
+.banner{
+    display: flex;
+    background-color: #800e80;
+    height: 40px;
+    width: 100%;
+}
+
+.banner .left-wing{
+    display: flex;
+    width: 40%;
+    /* outline: 2px solid red; */
+    color: #ffffff;
+    gap: 1.5rem;
+    margin-top: 10px; 
+    font-weight: 500;
+}
+
+.banner .left-wing .pin{
+    font-size: 15px;
+    /* outline: 2px solid red; */
+    margin-left: 35px;
+}
+
+.left-wing .icon{
+    color: #6b6b6b;
+    margin-right: 5px;
+}
+
+
+
+.banner .right-wing {
+    display: flex;
+    width: 60%;
+    list-style-type: none;
+     margin-top: 10px; 
+}
+
+.banner .right-wing li{
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 20px;
+    /* outline: 2px solid green; */
+}
+
+
+.right-wing .boldd li{
+    font-weight: 700;
+}
+
+.banner .spec .boldder{
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner .spec{
+    background-color: #48ba6a;
+    position: absolute;
+    outline: 2px solid blue;
+    width: 80px;
+    left: 90%;
+    top: 10px; 
+    height: 30px;
+    padding: 5px;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    position: sticky;
+}
+
+nav .nav-left{
+    /* outline: 2px solid red; */
+    width: 30%;
+    /* padding: 6px; */
+}
+
+.nav-left img{
+    width: 200px;
+    margin-left: 20px;
+}
+
+nav .nav-right{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    /* outline: 2px solid green; */
+    width: 70%;
+    padding: 10px; 
+    position: absolute;
+    left: 30%;
+}
+
+.mainfirst a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+    font-weight: 600;
+    /* outline: 2px solid blue; */
+}
+
+nav .nav-right .first:hover {
+    border-bottom: 7px solid #800e80;
+}
+
+nav .nav-right .mainfirst:hover .sub{
+    display: block;
+}
+
+
+.mainfirst .sub{
+    position: absolute;
+    background-color: #ededed;
+    display: none;
+    z-index: 1;
+}
+
+.mainfirst .sub1{
+    padding: 15px;
+    width: 220px;
+    top: 36px;
+    display: none;
+}
+
+.mainfirst .sub1 ul{
+    list-style-type: none;
+}
+
+.mainfirst .sub1 ul li{
+    padding:10px;
+    font-size: 14px;
+}
+
+.mainfirst .sub1 ul li:hover{
+    color: #800e80;
+}
+
+.sub2{
+    display: flex;
+    justify-content: space-between;
+    left: -40%;
+    top: 36px;
+    width: 1300px;
+}
+
+.sub2 .box1 .title{
+    font-weight: 600;
+}
+
+.sub2 .b{
+    padding: 20px;
+
+}
+
+.sub2 .b p{
+    /* width: 33.3%; */
+    padding: 10px;
+    font-size: 15px;
+}
+
+.sub2 .b p:hover{
+    color: #800e80;
+}
+
+/* .sub2 .box2, .box3{
+    border-left: 1px solid #cecece;
+} */
+
+.mainfirst .sub5{
+    padding: 15px;
+    width: 220px;
+    top: 36px;
+    display: none;
+}
+
+.mainfirst .sub5 ul{
+    list-style-type: none;
+}
+
+.mainfirst .sub5 ul li{
+    padding:10px;
+    font-size: 14px;
+}
+
+.mainfirst .sub5 ul li:hover{
+    color: #800e80;
+}
+
+.section1{
+    /* margin-top: 4%; */
+    width: 100%;
+    z-index: 0;
+    height: 450px;
+    background-image: url("https://futminna.edu.ng/wp-content/uploads/2022/12/gk-gate.png");
+    background-position: 190%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 .floater{
+    /* outline: 2px solid red; */
+    z-index: 0;
+    width: 50%;
+    position: relative; 
+    top: 80px; 
+    margin-left: 5%;
+}
+
+.floater .floater-toptxt{
+    margin-top: 10px;
+    color: #800e80;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.floater .floater-midtxt{
+    /* outline: 2px solid white; */
+    margin-top: 20px;
+    height: 100px;
+    padding: 10px;
+    font-family: playfair display;
+    background-color:#492c45; 
+}
+
+.floater-midtxt p{
+margin-top: 13px;
+margin-left: 40px;
+color:#ffffff ;
+font-size: 45px;
+font-weight: 700;
+}
+
+.floater button{
+    margin-top: 5%;
+    border-left: 2px solid #800e80;
+    border-right: 2px solid transparent;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    color:#000;
+    padding: 15px 32px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contain .min1 .bits{
+    width: 40px;
+}
+
+.section2{
+    width: 96%;
+    height: 120px;
+    padding: 20px;
+    border-radius: 6px;
+    z-index: 2;
+    margin-top: -36px;
+    background-color: #fff;
+    margin-left: 2%;
+    box-shadow: 2px 0px 6px 0px #cce;
+}
+
+.section2 .contain{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .contain .min1, .min2, .min3{
+    display: flex;
+    width: 30%;
+    /* justify-content: space-between; */
+}
+
+.section2 .contain .min .txxt{
+    margin-left: 15px;
+}
+
+.contain .min .txxt h5{
+    font-size: 19px;
+    line-height: 32px;
+    color: #163269;
+}
+
+.contain .min .txxt p{
+    font-weight: 500;
+    color: #2d2d2d;
+}
+
+.section3{
+    width: 100%;
+    padding: 20px;
+    background-color: transparent;
+    z-index: 0;
+}
+
+.section3 .wrapper{
+    display: flex;
+}
+
+
+
+.section3 .wrapper .lft .school{
+    width: 600px;
+}
+
+.section3 .wrapper .rght{
+    width: 37%;
+    margin-left: 6%;
+    margin-top: 5%;
+}
+
+.section3 .wrapper .rght h4{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.section3 .wrapper .rght p{
+letter-spacing: normal;
+font-size: 20px;
+font-weight: 500;
+margin-top: 15px;
+line-height: 30px;
+}
+
+.wrapper .rght .app{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    color: #fff;
+    background-color: #800e80;
+    font-weight: 600;
+    font-size:18px;
+    margin-top: 7%;
+}
+
+.section4{
+    background-color: #000;
+    padding: 20px 24px;
+    height: 300px;
+    margin-top: 12%;
+}
+
+.section4 .dock{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 30px;
+    margin-left: 90px;
+}
+
+.section4 .dock .dock-left, .dock-right{
+    /* width: 50%; */
+    color: #ffffff;
+}
+
+.dock .dock-left h4 , .dock-right h4{
+ font-size:30px;
+ line-height: 48px;
+ font-weight: 700;
+}
+
+.dock-right h4{
+    margin-left: 120px;
+}
+
+.dock .dock-right p, .dock-left p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+.dock .dock-left{
+    width: 40%;
+}
+
+.dock .dock-right{
+    width: 60%;
+    margin-left: 60px;
+}
+
+.section5{
+    background-color: #cce;
+}
