@@ -398,6 +398,9 @@ line-height: 30px;
 .section5{
    /* background-color: #ededed; */
     z-index: 1;
+    overflow: hidden;
+    background-color: #ededed;
+    height: 700px;
 }
 
 .section5 .become{
@@ -408,6 +411,8 @@ line-height: 30px;
     height: 462px;
     margin-top: 6%;
     z-index: 2;
+    background-color: #fff;
+    box-shadow: 2px 0px 6px 0px #cce;
 }
 
 .section5 .become .stud-vid{
@@ -482,7 +487,7 @@ line-height: 30px;
 }
 
 .section6{
-    margin-top: 10%;
+    /* margin-top: 10%; */
     width: 100%;
     background-image: url("https://futminna.edu.ng/wp-content/uploads/2022/12/girlreading.png");
     height: 600px;
@@ -549,5 +554,127 @@ line-height: 30px;
     color: #fff;
     font-size: 15px;
     font-weight: 600;
-    width: 539px;
+    width: 516px;
+}
+
+.section7{
+    width: 100%;
+    background-color: #ededed;
+    overflow: hidden;
+    height: 800px;
+}
+
+.section7 .face-it{
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 8%;
+}
+
+.face-it .flex{
+    width: 28%;
+    height: 600px;
+    background-color: #ededed;
+    box-shadow: 2px 0px 6px 0px #cce;
+}
+
+
+.face-it .img-div{
+    margin-left: 6%;
+}
+
+.face-it .item1 .img-div .elder{
+    width: 330px;
+}
+
+.face-it .item2 .img-div .dust{
+    width: 330px;
+}
+
+.face-it .item3 .img-div .boxx{
+    width: 330px;
+}
+
+.face-it .item2{
+    height: 580px;
+}
+
+.flex .topic{
+    margin-left: 6%;
+    margin-top: 8%;
+}
+
+.flex .topic h4{
+    font-size: 18px;
+    line-height: 48px;
+}
+
+.flex .topic p{
+    color:#979797;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.flex .topic .lern, .lrn{
+    border: 2px solid #800e80;
+    border-radius:4px;
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #800e80;
+    margin-top: 5%;
+}
+
+.flex .topic .rond-lrn{
+    border: none;
+    background-color: #800e80;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 26px;
+    width: 220px;
+    border-radius: 30px;
+    margin-top: 5%;
+}
+
+.section8{
+    /* margin-top: 5%; */
+    width: 100%;
+    overflow: hidden;
+    background-image: url("https://futminna.edu.ng/wp-content/uploads/2022/12/Academic-Publishing-Centre-2.png");
+    background-repeat: no-repeat;
+    background-position: 10% 10%;
+    height: 500px;
+}
+
+.section8 .bldng{
+    /* margin-top: 6%; */
+    width: 100%;
+    height: 500px;
+}
+
+.bldng .cetr{
+    /* outline: 2px solid red; */
+    width: 40%;
+    margin-top: 20%;
+    margin-left: 35%;
+    color: #fff;
+}
+
+.bldng .cetr img{
+    margin-left: 35%;
+}
+
+.bldng .cetr h3{
+    font-size: 40px;
+    margin-left: 3%;
+    line-height: 48px;
+}
+
+.bldng .cetr p{
+    margin-top: 3%;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 600;
 }
