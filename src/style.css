@@ -7,6 +7,7 @@
 body{
     font-family:Poppins, sans-serif;
     width: 100%;
+    /* background-color: #ededed; */
 }
 
 .banner{
@@ -81,6 +82,8 @@ nav{
     padding: 10px;
     cursor: pointer;
     position: sticky;
+    background-color: #fff;
+    /* height: 40px; */
 }
 
 nav .nav-left{
@@ -209,14 +212,15 @@ nav .nav-right .mainfirst:hover .sub{
     background-position: 190%;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .section1 .floater{
     /* outline: 2px solid red; */
     z-index: 0;
     width: 50%;
-    position: relative; 
-    top: 80px; 
+    /* position: relative;  */
+    margin-top: 80px; 
     margin-left: 5%;
 }
 
@@ -392,16 +396,16 @@ line-height: 30px;
 }
 
 .section5{
-    background-color: #ededed;
+   /* background-color: #ededed; */
     z-index: 1;
 }
 
 .section5 .become{
     display: flex;
     width: 96%;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     margin-left: 2%;
-    height: 500px;
+    height: 462px;
     margin-top: 6%;
     z-index: 2;
 }
@@ -411,13 +415,139 @@ line-height: 30px;
 }
 
 .become .become-right{
-    width: 40%;
+    width: 90%;
+    height: 50px;
+    /* outline: 2px solid red; */
 }
 
 .become .become-right ul{
     list-style-type: none;
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    height: 50px;
+    /* justify-content: space-between; */
 }
 
+.become-right ul .sep{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left:8%;
+    background-color: #eeeeee;
+}
+
+.become-right ul .sep li{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6b6b6b;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.become-right .mit {
+    color: #1f1f1f;
+    margin-left: 3%;
+    margin-top:16px ;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.centre{
+    /* outline: 2px solid blue; */
+    margin-top: 10%;
+    width: 80%;
+    margin-left: 50px;
+}
+
+.centre h4{
+    /* margin-left: 40%; */
+    font-size: 26px;
+    color: #163269;
+    line-height: 48px;
+}
+
+.centre .p1{
+    font-size: 16px;
+    color: #6b6b6b;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.centre .p2{
+    font-size: 16px;
+    color: #6b6b6b;
+    font-weight: 500;
+    margin-top: 3%;
+    line-height: 19px;
+}
+
+.section6{
+    margin-top: 10%;
+    width: 100%;
+    background-image: url("https://futminna.edu.ng/wp-content/uploads/2022/12/girlreading.png");
+    height: 600px;
+    background-position: 40% 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.section6 .sect-teext{
+    /* outline: 2px solid red; */
+    width: 40%;
+    margin-left: 50%;
+    margin-top: 30%;
+}
+
+.section6 .sect-teext h4{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 30%;
+}
+
+.sect-teext .button-row{
+    margin-top: 6%;
+    /* margin-left: 30%; */
+    width: 100%;
+    /* gap: 1.5rem; */
+}
+
+.sect-teext .button-row .keys{
+    border: none;
+    border-radius: 4px;
+    padding: 15px 20px;
+    background-color: #fff;
+    font-size: 14px;
+    text-align: left;
+    width: 250px;
+}
+
+
+
+.sect-teext .button-row .search{
+    border:none;
+    border-radius: 4px;
+    padding: 15px 22px;
+    background-color: #fff;
+    font-size: 14px;
+    margin-left: 2%;
+    text-align: left;
+    width: 250px;
+}
+
+.arr-pointer{
+    margin-left: 70px;
+}
+
+.sect-teext .scrh{
+    margin-top: 5%;
+    border: none;
+    border-radius: 2px;
+    padding: 16px 70px;
+    background-color: #800e80;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    width: 539px;
+}
