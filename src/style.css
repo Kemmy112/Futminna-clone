@@ -678,3 +678,241 @@ line-height: 30px;
     text-align: center;
     font-weight: 600;
 }
+
+.section9{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 6%;
+    height: 700px;
+    outline: 2px solid green;
+}
+
+.section9 .row-range{
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.section9 .row-range .un{
+    width: 40%;
+    /* outline: 2px solid red; */
+    /* margin-left: 2%; */
+
+}
+
+.section9 .row-range .un h4{
+    font-size: 25px;
+    line-height: 48px;
+}
+
+.section9 .row-range .un p{
+    color: #800e80;
+    font-size: 15px;
+}
+
+.section9 .row-range .un .lower{
+    /* outline: 2px solid blue; */
+    margin-top: 4%;
+    width: 75%;
+}
+
+.section9 .row-range .un .inpg{
+    margin-top: 3%;
+
+}
+
+.section9 .row-range .un img{
+    width: 450px;
+    border-radius: 4px;
+}
+
+.section9 .row-range .un .lower h5{
+    color: #6b6b6b;
+    line-height: 40px;
+}
+
+.section9 .row-range .un .lower .resp{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.section9 .row-range .deux{
+    width: 30%;
+    margin-left: 8px;
+}
+
+.section9 .row-range .deux .enn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 5%;
+}
+
+.section9 .row-range .deux .enn .emnn{
+    width: 90px;
+
+}
+
+
+.section9 .row-range .deux .enn .take{
+    color: #6b6b6b;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.section9 .row-range .deux .enn .wee{
+    text-decoration: none;
+    color: #1f1f1f;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.section9 .row-range .trois{
+    width: 25%;
+    background-color: #800e80;
+    height: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section9 .row-range .trois h4{
+    color: #fff;
+    font-size: 26px;
+    /* margin-left: 30px; */
+    text-align: center;
+    margin-top: 5%;
+}
+
+.section9 .row-range .trois .pp{
+    /* height: 120px; */
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.section9 .row-range .trois .pp .set{
+    color: red;
+}
+
+.section10{
+    width: 100%;
+    overflow: hidden;
+}
+
+.section10 .flat{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 500px;
+    margin-left: 2%;
+}
+
+.section10 .flat .prima{
+    width: 35%;
+    background-image: url("https://futminna.edu.ng/wp-content/uploads/2022/12/library-girl.png");
+    background-repeat: no-repeat;
+    background-position: 20% 40% ;
+    background-size: 160%;
+}
+
+.section10 .flat .prima h3{
+    text-align: left;
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 16%;
+    margin-left: 15%;
+}
+
+.section10 .flat .prima .pas{
+    display: flex;
+    color: #ffff;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 20%;
+}
+
+.section10 .flat .prima .date{
+    width: 50px;
+    height: 100px;
+    /* outline: 2px solid red; */
+    margin-left: 10%;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #800e80;
+}
+
+.section10 .flat .prima .sap{
+    width: 80%;
+    margin-left: 5%;
+}
+
+.section10 .flat .prima .sap h4{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.section10 .flat .prima .sap p{
+    font-size: 14px;
+    margin-top: 2%;
+}
+
+.section10 .flat .deuxieme{
+   width:30%;
+   outline: 2px solid red;
+}
+
+.section10 .flat .deuxieme .opp img{
+    width: 350px;
+}
+
+.section10 .flat .deuxieme .srcd img{
+    width: 150px;
+    margin-left: 90px;
+    margin-top: 5%;
+}
+
+.section10 .flat .deuxieme .mdia{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.section10 .flat .deuxieme .mdia img{
+    width: 150px;
+}
+
+.section10 .flat .deuxieme audio{
+    width: 200px;
+    outline: 2px solid red;
+}
+
+.section10 .flat .deuxieme .talk{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.section10 .flat .deuxieme .dnte{
+    border: none;
+    padding: 15px 30px;
+    width: 355px;
+    background-color: #800e80;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.section10 .flat .deuxieme .hrt{
+    /* margin-left: -2%; */
+}
