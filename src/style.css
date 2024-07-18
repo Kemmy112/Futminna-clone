@@ -65,12 +65,12 @@ body{
 }
 
 .banner .spec{
-    background-color: #48ba6a;
+    /* background-color: #48ba6a; */
     position: absolute;
-    outline: 2px solid blue;
+    /* outline: 2px solid blue; */
     width: 80px;
     left: 90%;
-    top: 10px; 
+    top: 6px; 
     height: 30px;
     padding: 5px;
 }
